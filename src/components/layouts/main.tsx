@@ -6,6 +6,7 @@ import { Newsletter } from 'components/newsletter'
 import Fab from 'components/fab'
 import MobileNav from 'components/mobileNav'
 import useLocalStorage from '../../hooks/useLocalStorage'
+import Image from 'next/image'
 
 type Props = {
   title?: string
@@ -73,11 +74,19 @@ export function Main(props: Props) {
 
           <footer className={styles.footer}>
             <p>
-              Follow @ <Link href="https://twitter.com/useWeb3">useWeb3</Link>. Contribute on{' '}
+              By <Link href="https://twitter.com/wslyvh">@wslyvh</Link> · Follow{' '}
+              <Link href="https://twitter.com/useWeb3">useWeb3</Link> · Contribute{' '}
               <Link href="https://github.com/wslyvh/useWeb3">Github</Link>.
             </p>
             <p>
-              Created by <Link href="https://twitter.com/wslyvh">@wslyvh</Link>.
+              <Link href="https://vercel.com/?utm_source=useWeb3&amp;utm_campaign=oss">
+                <Image
+                  src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
+                  alt="Powered by Vercel"
+                  height={28}
+                  width={200}
+                />
+              </Link>
             </p>
           </footer>
           <Fab onClick={handleCLick} />
