@@ -2,5 +2,6 @@
     "id": "tools",
     "title": "工具",
     "description": "",
-    "emoji": "🛠️"
+    "emoji": "🛠️",
+    "priority": 0
 }

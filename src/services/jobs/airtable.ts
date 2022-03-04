@@ -11,7 +11,7 @@ export class AirtableJobService implements JobServiceInterface {
   private base: Airtable.Base
 
   constructor() {
-    if (!process.env.AIRTABLE_API_KEY || !process.env.AIRTABLE_API_KEY) {
+    if (!process.env.AIRTABLE_API_KEY || !process.env.AIRTABLE_API_BASE) {
       throw new Error('Airtable API Base or Key not set.')
     }
 

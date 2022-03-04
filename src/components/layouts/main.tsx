@@ -37,10 +37,10 @@ export function Main(props: Props) {
           value={theme}
           className={styles.themeSwitcher}
           onChange={(e) => setTheme(e.target.value)}>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-          <option value="pantone">Pantone</option>
-          <option value="blueberry_dark">Blueberry Dark</option>
+          <option value="light">明亮</option>
+          <option value="dark">暗黑</option>
+          <option value="pantone">潘通</option>
+          <option value="blueberry_dark">蓝黑</option>
         </select>
       </aside>
       <aside className={styles.mobileSitenav}>
@@ -52,10 +52,10 @@ export function Main(props: Props) {
             value={theme}
             className={styles.themeSwitcher}
             onChange={(e) => setTheme(e.target.value)}>
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-            <option value="pantone">Pantone</option>
-            <option value="blueberry_dark">Blueberry Dark</option>
+            <option value="light">明亮</option>
+            <option value="dark">暗黑</option>
+            <option value="pantone">潘通</option>
+            <option value="blueberry_dark">蓝黑</option>
           </select>
         )}
       </aside>
@@ -69,15 +69,15 @@ export function Main(props: Props) {
 
           {props.children}
 
-          {!props.hideNewsletter && <Newsletter className={styles.newsletter} />}
+          {/*{!props.hideNewsletter && <Newsletter className={styles.newsletter} />}*/}
 
           <footer className={styles.footer}>
             <p>
-              Follow @ <Link href="https://twitter.com/useWeb3">useWeb3</Link>. Contribute on{' '}
-              <Link href="https://github.com/wslyvh/useWeb3">Github</Link>.
+              twitter账号 @ <Link href="https://twitter.com/useWeb3">useWeb3</Link>. 贡献{' '}
+              <Link href="https://github.com/PublicFE/useWeb3">Github</Link>.
             </p>
             <p>
-              Created by <Link href="https://twitter.com/wslyvh">@wslyvh</Link>.
+              创建者 <Link href="https://twitter.com/wslyvh">@wslyvh</Link>.
             </p>
           </footer>
           <Fab onClick={handleCLick} />

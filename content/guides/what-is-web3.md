@@ -1,8 +1,8 @@
 ---
-title: 'What is Web3'
-description: 'Web3 is about the next evolution of the web. A web that is more open, transparent and decentralized.'
+title: 'Web3 是什么？'
+description: 'Web3是关于下一代进化的Web网络技术。一个更加开放、透明和分散的Web网络。'
 authors: ['@wslyvh']
-level: Beginner
+level: 新手
 tags: ['Web3']
 languages: []
 featured: true
@@ -10,36 +10,36 @@ date: 2022-01-22
 dateAdded: 2022-01-15
 ---
 
-Web3 is about the next evolution of the web. A web that is more open, transparent and permissionless and runs on decentralized infrastructure such as blockchains. Global and decentralized applications (DApps) that anyone can interact with. They often have native assets integrated (such as Ether) to transact value, but are not just about money or payments. These decentralized applications offer a range of digitial services, such as storage, bandwidth and computation without any risk of downtime, censorship, fraud, or 3rd-party interference.
+Web3是关于网络的下一次发展。一个更加开放、透明和分散的Web网络。并且运行在区块链等分散的基础设施上。任何人都可以与之交互的全局和去中心化应用程序(DApps)。它们通常整合本地资产（如以太）来交易价值，但不仅仅是金钱或支付。这些去中心化的应用程序提供了一系列的数字化服务，如存储、带宽和计算，而没有任何停机、审查、欺诈或第三方干扰的风险。
 
-## Benefits
+## 亮点
 
-- **Open** - in that they are built from open-source software, by an open and accessible community of developers and executed in full view of the world. 
-- **Trustless** - in that the network itself allows participants to interact publicly, or privately without a trusted third party
-- **Permissionless** - in that anyone, both users and suppliers, can participate without authorisation from a governing body
-
-
-## Opportunities
-
-- Financial Tools (payments, fund raising, lending, borrowing,..)
-- Identity solutions (self-sovereign, decentralized identifiers,..) 
-- More secure voting and governance mechanisms
-- Efficient resources management (CO2 tracking, smart grid’s,..)
-- Digital ownership registries (e.g. land, collectibles, NFT’s,..)
-- Supply chain tracking
+- **开放** - 因为它们是由开源软件构建的，由一个开放的、可访问的开发者社区开发，并在全世界的视野中执行。
+- **不可信任** - 网络本身允许参与者在没有可信第三方的情况下公开或私下互动
+- **无需许可** - 因为任何用户，包括用户和供应商，都可以参与，无需得到管理机构的授权
 
 
-## Web3 Development
+## 机遇
 
-[useWeb3](https://www.useweb3.xyz/) is a learning platform for developers to explore and learn about Web3. Whether you’re a new dev getting your hands dirty for the first time, or a seasoned developer making the transition into the Web3 space. 
+- 金融工具 (支付, 融资, 贷款, 借款,..)
+- 身份解决方案 (自我主权, 去中心化身份,..) 
+- 更安全的投票和治理机制
+- 高效的资源管理 (二氧化碳跟踪, 智能电网,..)
+- 数字所有权登记处 (e.g. 土地, 藏品, NFT’s,..)
+- 供应链跟踪
 
-Explore the latest resources, tutorials, challenges, tools, courses and boilerplates and start learning. Once you’re ready, browse the job board to land a job at some of the leading companies that work on core, open-source infrastructure, products, tools, frameworks, DAO's, etc.
+
+## Web3 开放
+
+[useWeb3](https://useWeb3.chejj.cc/) 是一个开发者探索和了解Web3的学习平台。不管你是第一次接触的新开发者还是是正在切换到Web3的经验丰富开放者。 
+
+探索最新的资源、教程、挑战、工具、课程和样板，开始学习。一旦你准备好了，浏览招聘模块，在这些从事核心、开源基础设施、产品、工具、框架、DAO等方面领先的公司，找到一份工作，。
 
 
-## Further reading
+## 进阶阅读
 
-- [A Cyberphunk's Manifesto](https://www.activism.net/cypherpunk/manifesto.html), Eric Hughes
-- [The Meaning of Decentralization](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274), Vitalik Buterin
-- [Why decentralization matters](https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e), Chris Dixon
-- [What Is Web 3.0 & Why It Matters](https://medium.com/fabric-ventures/what-is-web-3-0-why-it-matters-934eb07f3d2b), Max Mersch and Richard Muirhead
-- [What exactly is Web3?](https://youtu.be/l44z35vabvA), Juan Benet (VIDEO)
+- [一份赛伯朋克宣言](/guides/A-Cypherpunk-s-Manifesto), Eric Hughes
+- [去中心化的意义](/guides/the-meaning-of-decentralization), Vitalik Buterin
+- [为什么去中心化很重要](https://onezero.medium.com/why-decentralization-matters-5e3f79f7638e), Chris Dixon
+- [什么是web3.0以及它的重要性](https://medium.com/fabric-ventures/what-is-web-3-0-why-it-matters-934eb07f3d2b), Max Mersch and Richard Muirhead
+- [Web3到底是什么？](https://youtu.be/l44z35vabvA), Juan Benet (VIDEO)

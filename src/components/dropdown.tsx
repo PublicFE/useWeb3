@@ -3,6 +3,7 @@ import { useOnOutsideClick } from 'hooks/useOnOutsideClick'
 import styles from './dropdown.module.scss'
 
 interface Props {
+  showText?: any
   items: Array<string>
   selected?: string
   className?: string
@@ -28,7 +29,7 @@ export function Dropdown(props: Props) {
   return (
     <div className={className} ref={ref} onClick={() => setOpen(!open)}>
       <div className={`${styles.selected}`}>
-        <p>{selected}</p>
+        <p>{props.showText ? props.showText[selected] : selected}</p>
         <p>&#9660;</p>
       </div>
 
@@ -37,7 +38,7 @@ export function Dropdown(props: Props) {
           {props.items.map((i) => {
             return (
               <li key={i} onClick={() => onSelect(i)}>
-                {i}
+                {props.showText ? props.showText[i] : i}
               </li>
             )
           })}

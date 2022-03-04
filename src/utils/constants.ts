@@ -1,6 +1,5 @@
-export const TITLE = 'useWeb3.xyz'
-export const DESCRIPTION =
-  'Web3开发者学习平台. Explore tutorials, guides, courses, challenges and more. Learn by building ⚒️ Find your job ✨ Start contributing'
+export const TITLE = 'useWeb3.chejj.cc'
+export const DESCRIPTION = 'Web3开发者学习平台. 探索教程，指南，课程，挑战和更多. 边实践边学习 ⚒️ 求职 ✨ 开始贡献'
 export const SITE_URL = 'https://useweb3.chejj.cc/'
 export const IMAGE_OG = `${SITE_URL}images/social.png`
 export const SOCIAL_HANDLE = '@useWeb3'

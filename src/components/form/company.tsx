@@ -72,7 +72,7 @@ export function CompanyForm(props: Props) {
           id="website"
           name="Website"
           info="Link to your main website"
-          placeholder="https://www.useweb3.xyz/"
+          placeholder="https://useWeb3.chejj.cc/"
           value={props.company.website}
           onChange={(value) => props.onChange({ ...props.company, website: value })}
           required

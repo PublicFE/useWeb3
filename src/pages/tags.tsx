@@ -21,16 +21,16 @@ export default function Index(props: Props) {
     <NavigationProvider categories={props.categories}>
       <SEO title="Explore resources by tags" />
 
-      <MainLayout title="Tags" className={styles.container}>
+      <MainLayout title="标签" className={styles.container}>
         <section>
-          <p>Browse resources based on their tags.</p>
+          <p>基于标签浏览资源</p>
           <main>
             <Tags tags={props.tags} />
           </main>
         </section>
 
         <section>
-          <p className={styles.second}>Or by programming language.</p>
+          <p className={styles.second}>或者根据编程语言.</p>
           <main>
             <Tags tags={props.languages} />
           </main>

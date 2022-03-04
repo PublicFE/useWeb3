@@ -44,10 +44,15 @@ export function FilteredOverview(props: Props) {
       )}
 
       <div className={styles.filter}>
-        <p>Sort by:</p>
+        <p>排序:</p>
         <Dropdown
           className={styles.sort}
           items={['Recently added', 'Title', 'Expertise']}
+          showText={{
+            'Recently added': '最近添加',
+            Title: '标题',
+            Expertise: '专业',
+          }}
           onSelect={(value) => onSort(value)}
         />
       </div>

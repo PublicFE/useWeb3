@@ -1,6 +1,7 @@
 import { Category } from './category'
 
 export interface ContentItem {
+  third?: boolean
   id: string
   title: string
   description: string

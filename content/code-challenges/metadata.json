@@ -2,5 +2,6 @@
     "id": "code-challenges",
     "title": "编程闯关",
     "description": "这些交互式游戏教程可以让你在玩游戏时通过web3开发的基本知识。以一种有趣和有教育性的方式建立你自己的游戏或黑客攻击以太坊智能合同。",
-    "emoji": "🏆"
+    "emoji": "🏆",
+    "priority": 0
 }

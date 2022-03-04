@@ -2,5 +2,6 @@
     "id": "games",
     "title": "游戏",
     "description": "",
-    "emoji": "🎲"
+    "emoji": "🎲",
+    "priority": 7
 }

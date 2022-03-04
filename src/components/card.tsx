@@ -34,7 +34,7 @@ export function Card(props: Props) {
       <div className={styles.footer}>
         {props.detailsUrl && (
           <Link className={styles.details} href={props.detailsUrl}>
-            <span>More details &raquo;</span>
+            <span>更多详情 &raquo;</span>
           </Link>
         )}
         {!props.detailsUrl && <span></span>}

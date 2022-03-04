@@ -86,7 +86,7 @@ export class MarkdownContentService implements ItemServiceInterface {
     return this.toItem(content, slug, cat)
   }
 
-  public async GetItems(category?: string, featured?: boolean): Promise<Array<ContentItem>> {
+  public async GetItems(category?: string, featured?: boolean, include_third?: boolean): Promise<Array<ContentItem>> {
     let items = new Array<ContentItem>()
     let categories = await this.GetCategories()
     if (category) {
@@ -114,7 +114,7 @@ export class MarkdownContentService implements ItemServiceInterface {
       items = items.concat(itemsByCategory)
     })
 
-    return items.filter((i) => (featured ? i.featured === featured : true))
+    return items.filter((i) => (featured ? i.featured === featured : true) && ( typeof include_third === 'undefined' ? true : i.third !== true))
   }
 
   public async GetItemsByTag(tag: string): Promise<Array<ContentItem>> {

@@ -3,4 +3,5 @@ export interface Category {
   title: string
   description?: string
   emoji: string
+  priority: any
 }

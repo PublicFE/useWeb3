@@ -42,11 +42,11 @@ export default function Index(props: Props) {
       <MainLayout className={styles.container} title={props.item.title}>
         <article className={styles.authors}>
           <div>
-            <span>By</span>
+            <span>作者</span>
             <Authors authors={props.item.authors} />
           </div>
           {props.item.date && (
-            <div className={styles.muted}>Published {moment(props.item.date).format('MMM D, YYYY')}</div>
+            <div className={styles.muted}>发表于 {moment(props.item.date).format('MMM D, YYYY')}</div>
           )}
         </article>
 

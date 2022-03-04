@@ -13,7 +13,7 @@ interface SEOProps {
 export function SEO(props: SEOProps) {
   const router = useRouter()
   const divider = props.divider ?? `·`
-  const title = props.title ? `${props.title} ${divider} ${TITLE}` : `${TITLE} ${divider} Learn Web3 development`
+  const title = props.title ? `${props.title} ${divider} ${TITLE}` : `${TITLE} ${divider} 学习 Web3 开发技术`
   const description = props.description || DESCRIPTION
   const image = props.imageUrl || IMAGE_OG
   const url = router.route === '/' ? SITE_URL : SITE_URL.replace(/\/$/, '') + router.asPath.split('?')[0]

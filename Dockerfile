@@ -1,5 +1,6 @@
 FROM node:alpine3.15 as module-stage
 WORKDIR /app
+ENV NEXT_TELEMETRY_DEBUG=1
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories
 RUN apk add git
 RUN which git
@@ -13,7 +14,6 @@ RUN yarn install --production --silent --ignore-optional --pure-lockfile
 FROM module-stage as build-stage
 WORKDIR /app
 ENV NEXT_TELEMETRY_DEBUG=1
-
 RUN yarn install --force && yarn run build && rm -rf .next/cache
 
 
